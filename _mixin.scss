@@ -1,0 +1,26 @@
+@mixin SilverText {
+    color: $colorSilverText;
+    font-family: $fontLight;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@mixin Link {
+    color: $colorSite;
+    font-family: $fontLight;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@mixin Heading {
+    color: $colorText;
+    font-family: $fontBold;
+    font-size: 24px;
+    font-weight: 850;
+}
+
+@mixin Center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
